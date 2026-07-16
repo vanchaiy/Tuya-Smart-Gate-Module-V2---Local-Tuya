@@ -1,3 +1,6 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Home Assistant](https://img.shields.io/badge/Home%20Assistant-compatible-41BDF5?logo=homeassistant)](https://www.home-assistant.io/)
+
 # Smart Gate Module — คู่มือเชื่อมต่อ Home Assistant ผ่าน LocalTuya
 คู่มือการเชื่อมต่อ **Smart Gate Module (SGM-2026-AC/DC)** ซึ่งเป็นอุปกรณ์ Tuya
 ที่ใช้ **custom DP** ทั้งหมด เข้ากับ **Home Assistant** ผ่าน integration
@@ -80,6 +83,8 @@ python -m tinytuya scan
 ---
 
 ## 4. ติดตั้ง xZetsubou/hass-localtuya
+
+<img src="./localtuya.png" alt="SGM-AC" width="100">
 
 1. เปิด **HACS** → เมนู `⋮` (มุมขวาบน) → **Custom repositories**
 2. ใส่ URL: `https://github.com/xZetsubou/hass-localtuya`
@@ -263,3 +268,14 @@ logger:
   และเก็บค่าจริงไว้ใน `secrets.yaml` หรือ environment variable
 - LocalTuya ควบคุมผ่าน LAN โดยตรง แต่ **ไม่ได้หยุด** อุปกรณ์จากการส่งสถานะขึ้น
   Tuya cloud หากต้องการตัด cloud ต้องบล็อกที่ระดับ firewall / DNS
+
+## Related
+
+- [HA-SGM-2026 API Examples](https://github.com/vanchaiy/HA-SGM-2026-API-Examples) — HA-SGM-2026 API Examples [ REST API · WebSocket · Webhook · UART ]
+- [Home Assistant](https://www.home-assistant.io/) — open source home automation
+- [สั่งซื้อ Tuya Smart Gate Module V2](https://shopee.co.th/product/112616476/44556251791) — Shopee Lazada Tiktok
+
+
+
+
+---
