@@ -1,5 +1,4 @@
 # Smart Gate Module — คู่มือเชื่อมต่อ Home Assistant ผ่าน LocalTuya
-
 คู่มือการเชื่อมต่อ **Smart Gate Module (SGM-2026-AC/DC)** ซึ่งเป็นอุปกรณ์ Tuya
 ที่ใช้ **custom DP** ทั้งหมด เข้ากับ **Home Assistant** ผ่าน integration
 [`xZetsubou/hass-localtuya`](https://github.com/xZetsubou/hass-localtuya)
@@ -10,6 +9,14 @@
 | Model | `SGM-2026-AC/DC` |
 | Protocol version | **3.5** |
 | Integration | `xZetsubou/hass-localtuya` (fork ของ rospogrigio/localtuya) |
+
+---
+
+| <img src="./SGM-AC.jpg" alt="SGM-AC" width="400"> | <img src="./SGM-DC.jpg" alt="SGM-DC" width="400"> |
+|--------------------------|--------------------------|
+
+| <img src="./Local-Tuya-1.png" alt="SGM-AC" width="400"> | <img src="./Local-Tuya-2.png" alt="SGM-DC" width="400"> |
+|--------------------------|--------------------------|
 
 ---
 
