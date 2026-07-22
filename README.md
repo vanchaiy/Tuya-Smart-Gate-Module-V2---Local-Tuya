@@ -1,5 +1,8 @@
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-compatible-41BDF5?logo=homeassistant)](https://www.home-assistant.io/)
-[![Copyright](https://img.shields.io/badge/Copyright-Wanchai%20DIY-blue.svg)]()
+[![Copyright](https://img.shields.io/badge/Copyright-Wanchai%20DIY-blue.svg)](https://www.facebook.com/wanchaidiy)
+[![Powered by Tuya](https://img.shields.io/badge/Powered%20by-Tuya-FF4800.svg)](https://www.tuya.com)
+[![Built with tinytuya](https://img.shields.io/badge/Built%20with-tinytuya-1793D1.svg)](https://github.com/jasonacox/tinytuya)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB.svg)](https://www.python.org)
 
 # Smart Gate Module — คู่มือเชื่อมต่อ Home Assistant ผ่าน LocalTuya
 คู่มือการเชื่อมต่อ **Smart Gate Module (SGM-2026-AC/DC)** ซึ่งเป็นอุปกรณ์ Tuya
